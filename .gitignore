@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+.pnp/
+.pnp.js
+
+# Build directories
+dist/
+build/
+
+# TypeScript specific
+*.tsbuildinfo
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Environment variables
+.env
+
+# Temporary files
+*.tmp
+*.swp
+
+# Coverage directories
+coverage/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
