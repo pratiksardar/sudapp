@@ -34,7 +34,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
               rel="noreferrer"
               className="w-fit py-2 text-xs text-primary underline-offset-4 hover:underline"
             >
-              Built by District Labs
+              Built by Pratik Sardar
             </a>
             <div className="mt-2 flex items-center space-x-2">
               <Link href={siteConfig.links.github}>

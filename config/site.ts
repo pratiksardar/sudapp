@@ -15,7 +15,7 @@ interface SiteConfig {
   }
 }
 
-export const SITE_CANONICAL = "https://turboeth.xyz"
+export const SITE_CANONICAL = "https://github.com/pratiksardar"
 
 export const siteConfig: SiteConfig = {
   name: "SuDapp",
@@ -26,9 +26,9 @@ export const siteConfig: SiteConfig = {
   localeDefault: "en",
   links: {
     docs: "https://docs.turboeth.xyz/overview",
-    discord: "https://discord.gg/U4jy7Xfh76",
-    twitter: "https://twitter.com/district_labs",
-    github: "https://github.com/turbo-eth/template-web3-app",
+    discord: "",
+    twitter: "https://twitter.com/pratik_sardar",
+    github: "https://github.com/pratiksardar",
   },
 }
 

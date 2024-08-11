@@ -20,14 +20,19 @@ export default function HomePage() {
     <div className="container relative mt-20 px-0">
       <PageHeader className="pb-8">
         <Image
-          src="/hackathon-partner-logo.png"  // Updated logo to reflect hackathon partner finder theme
+          src="/hackathon-partner-finder-logo.png"
           alt="Hackathon Partner Finder Logo"
           width={80}
           height={80}
           className="h-20 w-20 rounded-2xl"
         />
-        <PageHeaderHeading>Find Your Perfect Hackathon Partner</PageHeaderHeading>  // Updated heading
-        <PageHeaderDescription>Connect with like-minded innovators and build something amazing together.</PageHeaderDescription>  // Updated description
+        <PageHeaderHeading>
+          Find Your Perfect Hackathon Partner
+        </PageHeaderHeading>
+        <PageHeaderDescription>
+          Connect with like-minded innovators and build something amazing
+          together.
+        </PageHeaderDescription>
         <PageHeaderCTA>
           <Link
             href={siteConfig.links.docs}
@@ -36,7 +41,7 @@ export default function HomePage() {
             className={buttonVariants({ variant: "default" })}
           >
             <LuBook className="mr-2 h-4 w-4" />
-            Get Started
+            Create Profile
           </Link>
           <Link
             href={siteConfig.links.github}
@@ -66,7 +71,11 @@ export default function HomePage() {
 
       <div className="mt-8">
         <h2 className="text-xl font-bold">How It Works</h2>
-        <p className="text-md mt-2">Create a profile, highlight your skills, and let our smart matching algorithm find the best hackathon partner for you. Collaborate, innovate, and win together!</p>
+        <p className="text-md mt-2">
+          Create a profile, highlight your skills, and let our smart matching
+          algorithm find the best hackathon partner for you. Collaborate,
+          innovate, and win together!
+        </p>
       </div>
 
       <div className="mt-8">
@@ -80,7 +89,6 @@ export default function HomePage() {
       </div>
 
       {/* Add any additional sections specific to the hackathon partner finder theme here */}
-
     </div>
   )
 }
