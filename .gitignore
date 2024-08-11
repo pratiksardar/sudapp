@@ -18,7 +18,7 @@ build/
 
 # TypeScript specific
 *.tsbuildinfo
-
+.next/
 # IDE/Editor specific
 .vscode/
 .idea/

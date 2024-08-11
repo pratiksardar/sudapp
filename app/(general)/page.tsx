@@ -20,14 +20,14 @@ export default function HomePage() {
     <div className="container relative mt-20 px-0">
       <PageHeader className="pb-8">
         <Image
-          src="/logo-gradient.png"
-          alt="TurboETH Logo"
+          src="/hackathon-partner-logo.png"  // Updated logo to reflect hackathon partner finder theme
+          alt="Hackathon Partner Finder Logo"
           width={80}
           height={80}
           className="h-20 w-20 rounded-2xl"
         />
-        <PageHeaderHeading>Build Web3 in Turbo&nbsp;Mode</PageHeaderHeading>
-        <PageHeaderDescription>{siteConfig.description}</PageHeaderDescription>
+        <PageHeaderHeading>Find Your Perfect Hackathon Partner</PageHeaderHeading>  // Updated heading
+        <PageHeaderDescription>Connect with like-minded innovators and build something amazing together.</PageHeaderDescription>  // Updated description
         <PageHeaderCTA>
           <Link
             href={siteConfig.links.docs}
@@ -36,7 +36,7 @@ export default function HomePage() {
             className={buttonVariants({ variant: "default" })}
           >
             <LuBook className="mr-2 h-4 w-4" />
-            Docs
+            Get Started
           </Link>
           <Link
             href={siteConfig.links.github}
@@ -45,7 +45,7 @@ export default function HomePage() {
             className={buttonVariants({ variant: "secondary" })}
           >
             <FaGithub className="mr-2 h-4 w-4" />
-            Github
+            GitHub
           </Link>
           <Link
             href={siteConfig.links.discord}
@@ -57,18 +57,30 @@ export default function HomePage() {
             )}
           >
             <FaDiscord className="mr-2 h-4 w-4" />
-            Discord
+            Discord Community
           </Link>
         </PageHeaderCTA>
-        <PageHeaderCTA>
-          <CopyButton value="pnpm create turbo-eth@latest">
-            <span className="text-xs sm:text-base">
-              pnpm create turbo-eth@latest
-            </span>
-          </CopyButton>
-        </PageHeaderCTA>
       </PageHeader>
-      <ExampleDemos />
+
+      {/* Other sections like Wallet and any specific Web3 components remain unchanged */}
+
+      <div className="mt-8">
+        <h2 className="text-xl font-bold">How It Works</h2>
+        <p className="text-md mt-2">Create a profile, highlight your skills, and let our smart matching algorithm find the best hackathon partner for you. Collaborate, innovate, and win together!</p>
+      </div>
+
+      <div className="mt-8">
+        <h2 className="text-xl font-bold">Why Choose Us?</h2>
+        <ul className="list-disc list-inside">
+          <li>Decentralized and secure platform</li>
+          <li>AI-powered matching based on skills and interests</li>
+          <li>Collaborative spaces to brainstorm and build</li>
+          <li>Earn unique NFT badges for your achievements</li>
+        </ul>
+      </div>
+
+      {/* Add any additional sections specific to the hackathon partner finder theme here */}
+
     </div>
   )
 }
